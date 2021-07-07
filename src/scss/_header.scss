@@ -2,18 +2,37 @@
   box-sizing: border-box;
 }
 
-// .wrapper {
-//   font-family:
-// }
-
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 10px;
 }
 
+.header {
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+}
+
 .header__menu {
   display: flex;
+}
+
+.header__logo {
+  // padding-top: 30px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: $headerColor;
+  font-family: Lato;
+  font-weight: bold;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 16px;
+  &-text {
+    padding-left: 17px;
+  }
 }
 
 .header__logo-image {
@@ -21,4 +40,14 @@
   width: 43px;
   height: 41px;
   display: inline-block;
+}
+
+.menu__link {
+  color: $headerColor;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 17px;
 }
