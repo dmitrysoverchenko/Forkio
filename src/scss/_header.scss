@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+// .wrapper {
+//   font-family:
+// }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.header__menu {
+  display: flex;
+}
+
+.header__logo-image {
+  background-image: url("../img/header/logo.png");
+  width: 43px;
+  height: 41px;
+  display: inline-block;
+}
