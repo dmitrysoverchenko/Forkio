@@ -1,0 +1,9 @@
+@mixin montserratBold {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+@mixin montserratReg {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
