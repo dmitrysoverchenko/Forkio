@@ -1,0 +1,63 @@
+.banner {
+  position: relative;
+  text-align: center;
+  background-image: url("../img/banner/banner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  // background-size: contain;
+  background-size: cover;
+  height: 100vh;
+  // height: 108vh;
+  padding-top: 83px;
+  position: relative;
+  &__title {
+    font-size: 82px;
+    line-height: 82px;
+    @include montserratBold;
+    color: #ffffff;
+    padding-bottom: 20px;
+  }
+  &__subtitle {
+    font-family: Lato;
+    color: $headerColor;
+    font-size: 30px;
+    line-height: 30px;
+    padding-bottom: 20px;
+  }
+  &__text {
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #848e97;
+    @include montserratReg;
+  }
+}
+
+.button__area {
+  display: inline-block;
+  position: absolute;
+  bottom: -72px;
+  // bottom: 86px;
+  left: calc(50% - 198px);
+}
+
+.button__download {
+  @include montserratBold;
+  color: white;
+  font-size: 22px;
+  line-height: 22px;
+  text-transform: capitalize;
+  padding: 23px 61px;
+  border: 1px solid transparent;
+  background-color: $headerColor;
+  border-radius: 33px;
+  cursor: pointer;
+}
+
+.button__download-description {
+  @include montserratReg;
+  font-size: 14px;
+  line-height: 15px;
+  color: #848e97;
+  padding-top: 19px;
+}
