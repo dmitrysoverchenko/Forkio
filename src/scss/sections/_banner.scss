@@ -1,7 +1,7 @@
 .banner {
   position: relative;
   text-align: center;
-  background-image: url("../img/banner/banner.png");
+  background-image: url("../img/banner/banner.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -67,7 +67,7 @@
 
 @media screen and (max-width: 992px) and (min-width: 481px) {
   .banner {
-    background-image: url("../img/banner/banner-768.png");
+    background-image: url("../img/banner/banner-768.jpeg");
     &__title {
       font-size: 72px;
       line-height: 72px;
@@ -85,7 +85,7 @@
 
 @media screen and (max-width: 480px) {
   .banner {
-    background-image: url("../img/banner/banner-320.png");
+    background-image: url("../img/banner/banner-320.jpeg");
     &__title {
       font-size: 48px;
       line-height: 48px;
