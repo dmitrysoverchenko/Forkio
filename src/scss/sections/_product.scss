@@ -12,8 +12,7 @@
 
   @media (min-width: 993px) {
     grid-template-columns: 1fr 1fr;
-    grid-column-gap: 30px;
-    padding: 95px 0 33px 65px;
+    padding: 95px 0 33px 40px;
   }
 
   @media (max-width: 992px) {
@@ -23,7 +22,7 @@
 
 .product__title {
   @include MontserratBold;
-  font-size: 48px;
+  font-size: 47px;
   line-height: 50px;
   color: #8d81ac;
   padding: 0;
