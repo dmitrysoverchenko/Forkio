@@ -1,9 +1,6 @@
 @import "_reset";
 @import "_var";
 @import "_mixins";
-@import "_header";
-@import "_banner";
-@import "_reviews";
 
 *,
 :after,
@@ -17,3 +14,10 @@
   margin: 0 auto;
   padding: 0 10px;
 }
+
+@import "sections/header";
+@import "sections/banner";
+@import "sections/editor";
+@import "sections/product";
+@import "sections/reviews";
+@import "sections/pricing";

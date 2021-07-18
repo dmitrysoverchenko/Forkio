@@ -11,7 +11,7 @@
   &__title {
     font-size: 82px;
     line-height: 82px;
-    @include montserratBold;
+    @include MontserratBold;
     color: #ffffff;
     padding-bottom: 20px;
   }
@@ -30,7 +30,7 @@
     line-height: 16px;
     text-transform: uppercase;
     color: #848e97;
-    @include montserratReg;
+    @include MontserratReg;
   }
 }
 
@@ -42,7 +42,7 @@
 }
 
 .button__download {
-  @include montserratBold;
+  @include MontserratBold;
   color: white;
   font-size: 22px;
   line-height: 22px;
@@ -58,7 +58,7 @@
 }
 
 .button__download-description {
-  @include montserratReg;
+  @include MontserratReg;
   font-size: 14px;
   line-height: 16px;
   color: #848e97;

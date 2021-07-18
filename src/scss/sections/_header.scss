@@ -33,7 +33,7 @@
 }
 
 .menu {
-  @include montserratBold;
+  @include MontserratBold;
   display: flex;
   justify-self: end;
   font-size: 16px;
@@ -60,7 +60,7 @@
   background-color: $headerColor;
   color: white;
   border-radius: 20px;
-  @include montserratBold;
+  @include MontserratBold;
   text-transform: capitalize;
   font-size: 16px;
   line-height: 17px;
@@ -180,7 +180,7 @@
     font-size: 26px;
     line-height: 26px;
     position: relative;
-    @include montserratReg;
+    @include MontserratReg;
 
     &:focus::before {
       content: "";
