@@ -25,3 +25,6 @@
 Блок Revolutionary Editor
 Секцию Here is what you get
 Секцию Fork Subscription Pricing
+
+Проект на GitHub Pages:
+https://luckyserj.github.io/Step_Forkio/
