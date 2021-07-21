@@ -32,7 +32,7 @@ function include() {
         basepath: "@file",
       })
     )
-    .pipe(dest("./"));
+    .pipe(dest("./dist/"));
 }
 
 function scssBuild() {
@@ -58,7 +58,7 @@ function cleanBuild() {
 function watcher() {
   browserSync.init({
     server: {
-      baseDir: "./",
+      baseDir: "./dist/",
     },
   });
   watch(path.src.scss, scssBuild).on("change", browserSync.reload);
@@ -68,13 +68,6 @@ function watcher() {
 function imgMinify() {
   return src(path.src.img).pipe(imagemin()).pipe(dest(path.dist.img));
 }
-
-exports.scssBuild = scssBuild;
-exports.jsBuild = jsBuild;
-exports.cleanBuild = cleanBuild;
-exports.watcher = watcher;
-exports.include = include;
-exports.imgMinify = imgMinify;
 
 exports.build = series(cleanBuild, include, scssBuild, jsBuild, imgMinify);
 exports.dev = watcher;
