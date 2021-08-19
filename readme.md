@@ -15,16 +15,13 @@
 
 Состав участников проекта:
 
-1. Дмитрий Соверченко сверстал
+1. Дмитрий Соверченко:
 
-Шапку сайта с верхним меню (включая выпадающее меню при малом разрешении экрана)
-Секцию People Are Talking About Fork
+Шапка сайта с верхним меню (включая выпадающее меню при малом разрешении экрана)
+Секция People Are Talking About Fork
 
-2. Сергей Лукьянчук сверстал
+2. Сергей Лукьянчук:
 
 Блок Revolutionary Editor
-Секцию Here is what you get
-Секцию Fork Subscription Pricing
-
-Проект на GitHub Pages:
-https://luckyserj.github.io/Step_Forkio/
+Секция Here is what you get
+Секция Fork Subscription Pricing
