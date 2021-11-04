@@ -32,7 +32,7 @@ function include() {
         basepath: "@file",
       })
     )
-    .pipe(dest("./dist/"));
+    .pipe(dest("./"));
 }
 
 function scssBuild() {
@@ -58,7 +58,7 @@ function cleanBuild() {
 function watcher() {
   browserSync.init({
     server: {
-      baseDir: "./dist/",
+      baseDir: "./",
     },
   });
   watch(path.src.scss, scssBuild).on("change", browserSync.reload);
