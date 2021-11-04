@@ -6,7 +6,7 @@ In this project I used gulp toolkit and its modules to create page with responsi
 
 Used technologies: 
 
-HTML, SCSS, gulp
+HTML, SCSS, JS, gulp
 
 gulp-autoprefixer
 gulp-clean
