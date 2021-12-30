@@ -15,4 +15,4 @@ gulp-imagemin <br>
 gulp-js-minify <br>
 gulp-sass <br>
 
-Project on GitHub pages https://dmitrysoverchenko.github.io/Forkio/
+Project on GitHub pages https://dmitrysoverchenko.github.io/forkio/
